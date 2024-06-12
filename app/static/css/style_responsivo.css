@@ -1,0 +1,1115 @@
+/*QUIZ*/
+
+/*pagina inicial quiz*/
+@media screen and (max-width: 768px) {
+   
+    .quiz_page{
+        display: block;
+        background-image: none;
+    }
+    .head_img {
+        width: 100vw;
+
+    }
+}
+
+/*pagina exercicios quiz 1_o_que_e.html*/
+@media screen and (max-width: 768px) {
+
+
+    .timeline{
+        display: block;
+        margin: 2em 2em;
+    }
+
+    .page_assunto_flex{
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 0%;
+    }
+
+    .quiz_page{
+    width: 100%;
+    }
+
+    .container-assunto{
+        background-color: black;
+        border: solid 2px black;
+        border-radius: 5%;
+        padding: 2%;
+        margin: 0;
+        max-width: 100%;
+        color: #ff695e;
+        font-family: 'Ruda';
+        font-size: 20px;
+    }
+
+    .arrow_assunto {
+        font-size: 18px;
+        padding: 8px 16px;
+        display:inline;
+        justify-items:;
+    }
+
+    .question_box_1{
+        display: block;
+        margin: 0%;
+    }
+}
+
+
+
+.quiz_page{
+
+}
+
+.page_assunto_flex{
+
+}
+
+.container-assunto{
+
+}
+
+.arrow_assunto{
+    
+}
+
+/*pagina exercicios quiz*/
+
+/*AVALIAÇÃO*/
+
+ /* pagina avaliação */
+
+ @media (max-width:990px){
+    .alternativa_avaliacao{
+        font-size: 15px;
+    }
+ }
+
+ @media (max-width:900px){
+    .alternativa_avaliacao{
+        font-size: 14px;
+    }
+ }
+
+ @media (max-width:712px){
+    .question_script_test{
+        font-size: 13px;
+    }
+    .num_question{
+        font-size: 23px;
+    }
+}
+
+
+ @media (max-width:590px){
+    .alternativa_avaliacao{
+        font-size: 13px;
+    }
+ }
+
+ @media (max-width:561px){
+    .text_button_av{
+        font-size: 12px;
+    }
+    .button_avaliacao{
+    height: 30px;
+}
+ }
+
+ @media (max-width:470px){
+    .alternativa_avaliacao{
+        font-size: 12px;
+    }
+    
+    .question_script_test{
+        font-size: 11px;
+    }  
+
+    .num_question{
+        font-size: 19px;
+    }
+
+    .engrenagem{
+        width: 41px;
+        height: 23px;
+    }
+
+    .text_button_av{
+        font-size: 11px;
+    }
+
+    .button_avaliacao{
+        height: 27px;
+    }
+ 
+}
+
+@media (max-width:422px){
+    .intro_avaliacao{
+        font-size: 29px;
+    }
+}
+
+@media (max-width:394px){
+    .intro_avaliacao{
+        font-size: 28px;
+    }
+}
+
+@media (max-width:326px){
+    .intro_avaliacao{
+        font-size: 26px;
+     }
+}
+
+
+@media (max-width:322px){
+    .alternativa_avaliacao{
+        font-size: 11px;
+    }
+
+    .question_script_test{
+        font-size: 9px;
+    }
+
+    .num_question{
+        font-size: 17px;
+    }
+
+    .engrenagem{
+        width: 39px;
+        height: 21px;}
+
+    .text_button_av{
+        font-size: 10px;
+     }
+}
+
+@media (max-width:305px){
+    .intro_avaliacao{
+        font-size: 25px;
+     }
+    }
+
+@media (max-width:282px){
+    .question_script_test{
+        font-size: 9px;
+    }
+
+    .num_question{
+        font-size: 16px;
+    }
+
+    .engrenagem{
+        width: 37px;
+        height: 19px;}
+
+    .intro_avaliacao{
+        font-size: 24px;
+    }
+    
+}
+
+@media (max-width:269px){
+.intro_avaliacao{
+    font-size: 23px;
+}
+}
+
+@media (max-width:266px){
+    .num_question{
+        font-size: 13.5px;
+    }
+
+    .engrenagem{
+        width: 34px;
+        height: 17px;
+    }
+
+}
+
+@media (max-width:250px){
+.intro_avaliacao{
+    font-size: 22px;}
+}
+
+@media (max-width:245px){
+    .num_question{
+        font-size: 13px;}
+    .engrenagem{
+        width: 29px;
+        height: 17px;
+    }
+    }
+
+@media (max-width:225px){
+    .intro_avaliacao{
+        font-size: 21px;
+    }
+}
+
+/* pagina resultados avaliação */
+
+@media (max-width:2000px){
+    .lista_respostas_av{
+        position: relative;
+        right: 2.9%;
+    }
+}
+
+
+@media(max-width:1320px){
+    .aprovado_reprovado_av{
+        font-size: 35px;
+    }
+    .desc_resultado_av{
+        font-size: 15px;}
+    .acertos_erros_av{
+        font-size: 16.5px;
+    }
+    .lista_respostas_av{
+        font-size: 14px;
+    }
+    .textos_correção_av{
+        font-size: 14px;
+    }
+    .aproveitamento_av{
+        font-size: 24px;
+    }
+}
+
+@media(max-width:1230px){
+    .aprovado_reprovado_av{
+        font-size: 34px;
+    }
+    .desc_resultado_av{
+        font-size: 14.5px;
+    }
+    .aproveitamento_av{
+        font-size: 23px;
+    }
+    .refazer{
+        margin-bottom: 9px;
+    }
+}
+
+@media(max-width:1160px){
+    .aprovado_reprovado_av{
+        font-size: 33px;
+    }
+    .desc_resultado_av{
+        font-size: 14px;
+    }
+    .aproveitamento_av{
+        font-size: 22px;
+    }
+    .img_resultados{
+        width: 24px;
+        height: 24px;
+    }
+}
+
+
+@media(max-width:1000px){
+    .seus_erros_av{
+        margin-left: 5%;
+    }
+    .suas_respostas_av{
+        margin-left: 4.9%;
+    }
+    .textos_correção_av{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .lista_respostas_av{
+        margin-left: 5.7%;
+    }
+    #button_next{
+        margin-right: 5%;
+    }
+    
+    #refazer{
+        margin-left: 5%;
+    }
+    .text_buttons_av_resultado{
+        font-size: 14px;
+    }
+    
+}
+
+@media(max-width:920px){
+    .aprovado_reprovado_av{
+        font-size: 32px;
+    }
+    .desc_resultado_av{
+        font-size: 13.5px;
+    }
+    .aproveitamento_av{
+        font-size: 21px;
+    }
+    .img_resultados{
+        width: 22px;
+        height: 22px;
+    }
+}
+
+@media (max-width:900px){
+    .aproveitamento_av{
+        font-size: 20px;
+    }
+    .acertos_erros_av{
+        font-size: 16px;
+    }
+    .aprovado_reprovado_av{
+        font-size: 31px;
+    }
+    .desc_resultado_av{
+        font-size: 13px;
+    }
+}
+
+@media (max-width:830px){
+    .aprovado_reprovado_av{
+        font-size: 30px;
+    }
+    .desc_resultado_av{
+        font-size: 13px;
+    }
+    .aproveitamento_av{
+        font-size: 19.3px;
+    }
+    .text_buttons_av_resultado{
+        font-size: 14px;
+    }
+    .lista_respostas_av{
+        font-size: 13px;
+    }
+    .textos_correção_av{
+        font-size: 13px;
+    }
+    .seus_erros_av{
+        font-size: 15.8px;
+    }
+    .certificado_avalie_av{
+        font-size: 14.6px;
+    }
+    .suas_respostas_av{
+        font-size: 15.8px;
+    }
+    #img_avalie{
+        position: relative; 
+        bottom: 5.8px;
+    }
+}
+
+@media (max-width:785px){
+    .aprovado_reprovado_av{
+        font-size: 28.5px;
+    }
+    .desc_resultado_av{
+        font-size: 12px;
+    }
+    .aproveitamento_av{
+        font-size: 18.6px;
+    }
+    .acertos_erros_av{
+        font-size: 14.8px;
+    }
+    .lista_respostas_av{
+        font-size: 12.5px;
+    }
+    .textos_correção_av{
+        font-size: 12.5px;
+    }
+    .suas_respostas_av{
+        font-size: 15.2px;
+    }
+    .seus_erros_av{
+        font-size: 15.2px;
+    }
+    .certificado_avalie_av{
+        font-size: 13.7px;
+    }
+    .img_resultados{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width:760px){
+    .text_buttons_av_resultado{
+        font-size: 13px;
+    }
+    .button_avaliacao{
+        height: 33px;
+    }
+}
+
+@media (max-width:665px){
+    .aprovado_reprovado_av{
+        font-size: 27.5px;
+    }
+    .desc_resultado_av{
+        font-size: 11px;
+    }
+    .certificado_avalie_av{
+        font-size: 13px;
+    }
+    .aproveitamento_av{
+        font-size: 17.9px;
+    }
+    .acertos_erros_av{
+        font-size: 14.6px;
+    }
+}
+
+@media (max-width:590px){
+    .aprovado_reprovado_av{
+        font-size: 26.5px;
+    }
+    .aproveitamento_av{
+        font-size: 17.55px;
+    }
+    .certificado_avalie_av{
+        font-size: 12.5px;
+    }
+    #img_avalie{
+        position: relative; 
+        bottom: 7.2px;
+    }
+    #img_certificado{
+        position: relative; 
+        bottom: 4.7px;
+    }
+    .text_buttons_av_resultado{
+        font-size: 12px;
+    }
+        .button_avaliacao{
+            height: 30px;
+        }
+        .lista_respostas_av{
+            position: relative;
+            right: 4%;
+        }
+    }
+
+@media (max-width:575px){
+    .aprovado_reprovado_av{
+        font-size: 25px;
+    }
+    .suas_respostas_av{
+        font-size: 14.7px;
+    }
+    .seus_erros_av{
+        font-size: 14.7px;
+    }
+    .lista_respostas_av{
+        font-size: 12.4px;
+    }
+    .textos_correção_av{
+        font-size: 12.4px;
+    }
+    .desc_resultado_av{
+        font-size: 10.5px;
+    }
+    .certificado_avalie_av{
+        font-size: 12.2px;
+    }
+    .aproveitamento_av{
+        font-size: 17.14px;
+    }
+    .acertos_erros_av{
+        font-size: 14.3px;
+    }
+}
+
+@media (max-width:540px){
+    .aprovado_reprovado_av{
+        font-size: 24px;
+    }
+    .desc_resultado_av{
+        font-size: 10px;
+    }
+    .aproveitamento_av{
+        font-size: 16.7px;
+    }
+}
+
+@media (max-width:508px){
+    .aprovado_reprovado_av{
+        font-size: 23px;
+    }
+    .aproveitamento_av{
+        font-size: 16px;
+    }
+.suas_respostas_av{
+        font-size: 14.4px;
+    }
+    .seus_erros_av{
+        font-size: 14.4px;
+    }
+    .lista_respostas_av{
+        font-size: 12.1px;
+    }
+    .textos_correção_av{
+        font-size: 12.1px;
+    } 
+
+    .acertos_erros_av{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:485px){
+    .aprovado_reprovado_av{
+        font-size: 22px;
+    }
+    .aproveitamento_av{
+        font-size: 15.4px;
+    }
+    .acertos_erros_av{
+        font-size: 13.3px;
+    }
+    .img_resultados{
+        width: 18px;
+        height: 18px;
+    }
+    .desc_resultado_av{
+        font-size: 9.75px;
+    }
+}
+
+@media (max-width:460px){
+    .certificado_avalie_av{
+        font-size: 11.75px;
+    }
+    .aproveitamento_av{
+        font-size: 15px;
+    }
+    .acertos_erros_av{
+        font-size: 13px;
+    }
+    .aprovado_reprovado_av{
+        font-size: 21px;
+    }
+    .desc_resultado_av{
+        font-size: 9.5px;
+    }
+    .suas_respostas_av{
+        font-size: 14.15px;
+    }
+    .seus_erros_av{
+        font-size: 14.15px;
+    }
+    .lista_respostas_av{
+        font-size: 11.8px;
+    }
+    .textos_correção_av{
+        font-size: 11.8px;
+    }
+}
+
+@media (max-width:438px){
+    .aprovado_reprovado_av{
+        font-size: 19.5px;
+}
+.certificado_avalie_av{
+    font-size: 11.3px;
+}
+.desc_resultado_av{
+    font-size: 8.7px;
+}
+#img_avalie{ 
+    bottom: 8.2px;
+}
+#img_certificado{
+    bottom: 5.7px;
+}
+.aproveitamento_av{
+    font-size: 14.5px;
+}
+.acertos_erros_av{
+    font-size: 12.5px;
+}
+
+.text_buttons_av_resultado{
+    font-size: 11px;
+}
+.button_avaliacao{
+    height: 30px;
+}
+.lista_respostas_av{
+    position: relative;
+    right: 5%;
+}
+}
+
+
+@media (max-width:405px){
+.certificado_avalie_av{
+    font-size: 11px;
+}
+.aproveitamento_av{
+    font-size: 13.9px;
+}
+.acertos_erros_av{
+    font-size: 12.35px;
+}
+.suas_respostas_av{
+    font-size: 13.25px;
+}
+.seus_erros_av{
+    font-size: 13.25px;
+}
+}
+
+@media (max-width:379px){
+
+.acertos_erros_av{
+    font-size: 12.25px;
+}
+.aproveitamento_av{
+    font-size: 13.2px;
+}
+.certificado_avalie_av{
+    font-size: 10.85px;
+}
+#img_avalie{ 
+    bottom: 6px;
+    height: 25px;
+    width: 33px;
+}
+#img_certificado{
+    height: 25px;
+    width: 37px;
+    bottom: 4px;
+}
+}
+
+@media (max-width:370px){
+    .text_buttons_av_resultado{
+        font-size: 10.6px;
+    }
+    .button_avaliacao{
+        height: 28px;
+    }
+}
+
+@media (max-width:361px){
+    .certificado_avalie_av{
+        font-size: 10.4px;
+    }
+    .aproveitamento_av{
+        font-size: 12.8px;
+    }
+    .acertos_erros_av{
+        font-size: 11.8px;
+    }
+    .suas_respostas_av{
+        font-size: 13px;
+    }
+    .seus_erros_av{
+        font-size: 13px;
+    }
+    .lista_respostas_av{
+        font-size: 11px;
+    }
+    .textos_correção_av{
+        font-size: 11px;
+    }
+    .img_resultados{
+        margin-top: 2px;
+        width: 16px;
+        height: 16px;
+    }
+    .lista_respostas_av{
+        position: relative;
+        right: 5.5%;
+    }
+}
+
+@media (max-width:315px){
+    #img_avalie{ 
+        height: 24px;
+        width: 32px;
+        bottom: 6px;
+    }
+    #img_certificado{
+        height: 24px;
+        width: 36px;
+        bottom: 4px;
+    }
+    .lista_respostas_av{
+        font-size: 10.8px;
+    }
+    .textos_correção_av{
+        font-size: 10.8px;
+    }
+    .suas_respostas_av{
+        font-size: 12.45px;
+    }
+    .seus_erros_av{
+        font-size: 12.45px;
+    }
+    .acertos_erros_av{
+        font-size: 11.6px;
+    }
+    .aproveitamento_av{
+        font-size: 12.6px;
+    }
+    .aprovado_reprovado_av{
+        font-size: 18px;
+}
+.desc_resultado_av{
+    font-size: 8.2px;
+}
+.lista_respostas_av{
+    position: relative;
+    right: 6.5%;
+}
+}
+
+@media (max-width:300px){
+    .aproveitamento_av{
+        font-size: 12.45px;
+    }
+    .acertos_erros_av{
+        font-size: 11.5px;
+    }
+    .lista_respostas_av{
+        font-size: 10.6px;
+    }
+    .textos_correção_av{
+        font-size: 10.6px;
+    }
+    .suas_respostas_av{
+        font-size: 12.2px;
+    }
+    .seus_erros_av{
+        font-size: 12.2px;
+    }
+    .certificado_avalie_av{
+        font-size: 10.15px;
+    }
+}
+
+@media (max-width:290px){
+    .text_buttons_av_resultado{
+        font-size: 8px;
+    }
+    .button_avaliacao{
+        height: 23.5px;
+    }
+    
+}
+
+@media(max-width:280px){
+    .certificado_avalie_av{
+        font-size: 9.9px;
+    }
+    #img_avalie{ 
+        height: 23px;
+        width: 31px;
+        bottom: 6px;
+    }
+    #img_certificado{
+        height: 23px;
+        width: 35px;
+        bottom: 4px;
+    }
+    .lista_respostas_av{
+        font-size: 10.6px;
+    }
+    .textos_correção_av{
+        font-size: 10.6px;
+    }
+    .suas_respostas_av{
+        font-size: 12.15px;
+    }
+    .seus_erros_av{
+        font-size: 12.15px;
+    }
+    .acertos_erros_av{
+        font-size: 11px;
+    }
+    .img_resultados{
+        margin-top: 1px;
+    }
+    .aproveitamento_av{
+        font-size: 12.35px;
+    }
+    .lista_respostas_av{
+        position: relative;
+        right: 7%;
+    }
+}
+
+@media (max-width:272px){
+    .aprovado_reprovado_av{
+        font-size: 16.7px;
+}
+}
+
+@media (max-width:244px){
+    .text_buttons_av_resultado{
+        font-size: 7.5px;
+    }
+    .button_avaliacao{
+        height: 23.5px;
+    }
+    .lista_respostas_av{
+        position: relative;
+        right: 8%;
+    }
+}
+
+@media (max-width:265px){
+    .img_resultados{
+        margin-top: 0;
+    }
+    .certificado_avalie_av{
+        font-size: 9.5px;
+    }
+    #img_avalie{ 
+        height: 21px;
+        width: 29px;
+        bottom: 6px;
+    }
+    #img_certificado{
+        height: 21px;
+        width: 33px;
+        bottom: 4.5px;
+    }
+    .lista_respostas_av{
+        font-size: 10.4px;
+    }
+    .textos_correção_av{
+        font-size: 10.4px;
+    }
+    .suas_respostas_av{
+        font-size: 12px;
+    }
+    .seus_erros_av{
+        font-size: 12px;
+    }
+    .aproveitamento_av{
+        font-size: 11.8px;
+    }
+}
+
+@media (max-width:256px){
+    .aproveitamento_av{
+        font-size: 11px;
+    }
+    .img_resultados{
+        margin-top: 1px;
+    }
+    .suas_respostas_av{
+        font-size: 11.5px;
+    }
+    .seus_erros_av{
+        font-size: 11.5px;
+    }
+    .lista_respostas_av{
+        font-size: 10px;
+    }
+    .textos_correção_av{
+        font-size: 10px;
+    }
+    .acertos_erros_av{
+        font-size: 10.3px;
+    }
+}
+
+@media (max-width:222px){
+    .text_buttons_av_resultado{
+        font-size: 6.8px;
+    }
+    .suas_respostas_av{
+        font-size: 11.2px;
+    }
+    .seus_erros_av{
+        font-size: 11.2px;
+    }
+    .lista_respostas_av{
+        font-size: 9.7px;
+    }
+    .textos_correção_av{
+        font-size: 9.7px;
+    }
+    .button_avaliacao{
+        height: 21px;
+    }
+    .aproveitamento_av{
+        font-size: 10.3px;
+    }
+    .acertos_erros_av{
+        font-size: 10px;
+    }
+    .lista_respostas_av{
+        position: relative;
+        right: 10%;
+    }
+}
+
+@media (max-width:220px){
+    .img_resultados{
+        margin-top: 0.5px;
+    }
+}
+
+@media (max-width:210px){
+.suas_respostas_av{
+    font-size: 11px;
+}
+.seus_erros_av{
+    font-size: 11px;
+}
+.lista_respostas_av{
+    font-size: 9.4px;
+}
+.textos_correção_av{
+    font-size: 9.4px;
+}
+}
+
+@media (max-width:204px){
+    .text_buttons_av_resultado{
+        font-size: 6.5px;
+    }
+    .button_avaliacao{
+        height: 22.5px;
+    }
+}
+
+/*FERRAMENTAS*/
+
+/*pagina inicial ferramentas*/
+@media screen and (max-width: 760px) {
+
+    .container-ferramentas-reverso{
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 25px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .container-home-ferramentas{
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 25px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .img-home-ferramentas{
+        max-width: 40%;
+        height: auto;
+     
+     }
+
+
+    .text-pagina-produto-sprint{
+        margin-top: 20px;
+        max-width: fit fit-content;
+        font-size: 16px;
+        text-align: justify;
+        color: black;
+      
+    }
+}
+
+/*pagina product backlog ferramentas*/
+
+@media screen and (max-width: 1200px){
+    
+.img-pagina-sprint{
+    max-width: 40%;
+    height: auto;
+ 
+ }
+ 
+ .botao_pagina_ferramentas{
+     width: 200px;
+ }
+ 
+ .container-sprint-ferramentas{
+     max-width: 800px;
+     margin: 0 auto;
+     padding: 25px;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+ }
+ 
+ .container-sprint-imagem-botao{
+     max-width: 800px;
+     margin: 0 auto;
+     padding: 25px;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .text-pagina-produto-sobre{
+    margin: 7% 5% 20% 5%;
+    text-align: justify;
+    font-size: 16px;
+    color: black;
+}
+}
+
+.container-assunto{
+    background-color: black;
+    border-radius: 30px;
+    color: #ff695e;
+    font-family: 'Ruda';
+    font-size: 20px;
+}
+@media (max-width:1000px){
+    .container-assunto{
+    font-size: 16px;
+    }
+}
+
+.arrow_assunto{
+    border: transparent;
+    font-size: 70px;
+    background-color: transparent;
+}
+@media (max-width:1000px){
+    .arrow_assunto {
+        font-size: 18px;
+        padding: 8px 16px;
+        display:inline;
+    }
+}
+
+/*pagina sprint backlog ferramentas*/
+
+/*pagina burndown ferramentas*/
+
+/*APOSTILA*/
+
+/*PACER*/
+
+/*PAGINA LOGIN*/
+
+/*PAGINA RESULTADOS*/
+
+/*PAGINA ADM*/
+
+/**/

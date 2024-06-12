@@ -1,0 +1,53 @@
+{% extends "/ferramentas/base_ferramentas.html" %}
+
+{% block title %}Burndown Chart{% endblock %}
+
+{% block head_image %}
+
+{% endblock %}
+
+{% block content %}
+<h1 style="padding-top: 2%;">Modelo Burndown Chart</h1>
+
+<!-- imagem, botão e texto responsivo -->
+    <div class="container-sprint-ferramentas">
+        <div class="container-sprint-imagem-botao">
+        <img class="img-pagina-sprint" src="{{url_for('static', filename='images/burndown-imagem.png')}}" alt="Imagem" ><br>
+        <a href="{{url_for('static', filename='modelos-ferramentas/Burndown-modelo.xlsx')}}" download>
+        <button type="button" class="button_home_page_ferramentas rounded-pill shadow-lg">Burndown Chart</button>
+        </a>
+        </div>
+        <div class="text-pagina-produto-sprint">
+            <p><strong>Como utilizar o modelo:</strong><br>
+                Comece definindo as tarefas e estimando o tempo necessário para cada uma. Em seguida, registre o total de trabalho planejado em um gráfico ao longo do tempo. À medida que o projeto avança, atualize o gráfico com o trabalho concluído diariamente. Use o burndown chart para identificar desvios em relação ao planejado e ajustar a equipe ou as metas conforme necessário. Ao final do projeto, analise o gráfico para insights valiosos sobre o desempenho e oportunidades de melhoria.</p>
+        </div>
+    </div>
+<!-- fim -->
+
+<!-- texto orientação -->
+    <div class="text-pagina-produto-sobre">
+        <h1>Orientações gerais sobre Burndown Chart</h1>
+        <br>
+        <h6> <strong>Passo 1: Definição do Escopo e Duração:</strong></h6> 
+            <p>Antes de começar o projeto ou sprint, defina o escopo do trabalho e a duração do período de tempo que será representado pelo Burndown Chart. Isso geralmente corresponde à duração do sprint ou do projeto.</p>
+            
+        <h6> <strong>Passo 2: Identificação de Tarefas e Estimativas:</strong></h6>
+            <p>Identifique todas as tarefas que precisam ser realizadas durante o período do Burndown Chart e estime o esforço necessário para completá-las. Essas estimativas podem ser em horas, pontos de história ou qualquer outra unidade de medida relevante para a equipe.
+            </p>
+        
+        <h6> <strong>Passo 3: Plotagem do Gráfico:</strong></h6>
+            <p>No eixo horizontal do Burndown Chart, represente o tempo (dias, semanas, etc.), enquanto no eixo vertical, represente o trabalho restante (horas, pontos, etc.). No primeiro dia, o gráfico começará no total estimado de trabalho.
+            </p>
+
+        <h6> <strong>Passo 4: Atualização Diária:</strong></h6>
+            <p>Durante o período do Burndown Chart, atualize-o diariamente com o trabalho realizado até o momento. Isso envolve subtrair o trabalho concluído do total estimado para obter o trabalho restante.</p>
+        
+        <h6> <strong>Passo 5: Avaliação e Ajustes:</strong></h6>
+            <p>Ao longo do tempo, avalie o progresso em relação ao gráfico de Burndown. Se o trabalho restante estiver acima do esperado, a equipe pode precisar ajustar sua abordagem, talvez redistribuindo tarefas ou aumentando o esforço para cumprir as metas.</p>
+
+        <h6> <strong>Passo 6: Comunicação e Transparência:</strong> </h6>
+            <p>Utilize o Burndown Chart como uma ferramenta de comunicação, compartilhando-o regularmente com toda a equipe e partes interessadas. Isso ajuda a manter todos alinhados com o progresso do trabalho e identifica possíveis problemas rapidamente.</p>
+    </div>
+<!-- fim -->
+
+{% endblock %}

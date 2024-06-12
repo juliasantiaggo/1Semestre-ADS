@@ -1,0 +1,33 @@
+{% extends "/quiz/base_quiz.html" %}
+
+{% block title %}Revisão Capítulo 1{% endblock %}
+
+{% block resumo %}
+<div class="container mt-4">
+    <div style="text-align:justify">
+        <h1 id="quiz_title">Capítulo 1</h1>
+        <div class="row d-flex justify-content-between align-items-center flex-wrap">
+            <div class="col-1">
+                <a href="/quiz/produto_sprints" class="mb-3 mb-md-0">
+                    <button id="button_previous" class="btn arrow_assunto">&#9664;</button>
+                </a>
+            </div>
+            <div class="col-9 container mx-2 my-2 box_question">
+                <h2 class="text-center">Papéis</h2>
+                <p>O responsável por entender os requisitos e o que o cliente realmente deseja é o Proprietário do Produto, enquanto o ScrumMaster, com o Proprietário do Produto e o Time de Desenvolvimento, define o conteúdo e os objetivos de cada Sprint. </p>
+                <p>Os papéis são cruciais no Scrum, pois definem as principais responsabilidades dos membros da equipe, garantindo uma distribuição clara de tarefas e promovendo a colaboração eficaz. Os três papéis principais dessa metodologia ágil são o Scrum Master, o Product Owner e o Dev Team, e cada um deve desempenhar funções específicas para impulsionar o sucesso do projeto.</p>
+            </div>
+            <div class="col-1">
+                <a href="/quiz/papeis" class="mb-3 mb-md-0">
+                    <button id="button_next" class="btn arrow_assunto">&#9654;</button>
+                </a>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="/quiz/salvar_quiz/4_papeis">
+                <button class="button_parar_aqui rounded-pill shadow-lg">Salvar respostas</button>
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}

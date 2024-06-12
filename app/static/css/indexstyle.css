@@ -1,0 +1,35 @@
+.head_img{
+    width: 100%;
+    height: auto;
+}
+
+.content_img{
+    width: 100%;
+    height: auto;
+}
+
+.product_intro{
+    font-size: larger;
+}
+
+.title{
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    color: #00adef;
+    font-size: 4rem;
+    padding-top: 5rem;
+    
+}
+
+.sub{
+    font-family: "Ruda", sans-serif;
+    font-size: 3rem;
+}
+
+.intro_text{
+    margin-bottom: 5rem;
+}
+
+.left_side_text{
+    padding-left: 3rem;
+}

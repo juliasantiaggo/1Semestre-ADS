@@ -1,0 +1,41 @@
+{% extends "/quiz/base_quiz.html" %}
+
+{% block title %}Iniciar Quiz{% endblock %}
+
+
+{% block head_image %}
+        <div class="head_img" style="background-image:url(/static/images/image-quiz.png); background-position:center; background-size: contain; background-repeat: no-repeat;"></div>
+{% endblock %}
+
+{% block resumo %}
+  <!-- teste -->
+
+  <div class="timeline">
+    <div class="step">
+      <div class="circle">1°</div>
+      <div class="step-content"><strong>LEIA SOBRE O ASSUNTO</strong></div>
+    </div>
+
+    <div class="arrow"></div>
+
+    <div class="step">
+      <div class="circle">2°</div>
+      <div class="step-content"><strong>RESPONDA AS QUESTÕES</strong></div>
+    </div>
+
+    <div class="arrow"></div>
+
+    <div class="step">
+      <div class="circle">3°</div>
+      <div class="step-content"><strong>CONFIRA SEUS RESULTADOS</strong></div>
+    </div>
+
+    <div class="arrow"></div>
+
+    <div class="step"><a href="/quiz/1_o_que_e"><button class="button_home_page_quiz rounded-pill shadow-lg">Iniciar Quiz >></button></a></div>
+
+
+  </div>
+  
+
+{% endblock %}

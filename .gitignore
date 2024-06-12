@@ -1,0 +1,8 @@
+venv/
+env/
+.venv/
+__pycache__/
+database.db
+teste.py
+nome.txt
+certificado.pdf
